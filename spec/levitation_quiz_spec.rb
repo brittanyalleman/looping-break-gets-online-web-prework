@@ -12,5 +12,3 @@ end
 		allow(self).to receive(:gets).and_return("Wingardium Leviosa")
 		expect{ levitation_quiz }.to output("What is the spell that enacts levitation?\nYou passed the quiz!\n").to_stdout
 	end
-
-
