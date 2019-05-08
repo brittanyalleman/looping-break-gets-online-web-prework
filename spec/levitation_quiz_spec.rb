@@ -6,7 +6,7 @@ describe "#levitation_quiz" do
   break if answer == "Wingardium Leviosa"
  end
   puts "you passed the quiz!"
-end
+
 
 	it "puts out the question 'What is the spell that enacts levitation?' until a user types 'Wingardium Leviosa'. Then, it puts out 'You passed the quiz!'" do
 		allow(self).to receive(:gets).and_return("Wingardium Leviosa")
