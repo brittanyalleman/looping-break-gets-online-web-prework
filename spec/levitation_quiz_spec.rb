@@ -5,4 +5,4 @@ describe "#levitation_quiz" do
   break if answer == "Wingardium Leviosa"
  end
   puts "you passed the quiz!"
-end
+
